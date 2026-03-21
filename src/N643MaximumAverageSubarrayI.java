@@ -19,6 +19,3 @@ public class N643MaximumAverageSubarrayI {
         System.out.println(findMaxAverage(arr,4));
     }
 }
-
-
-

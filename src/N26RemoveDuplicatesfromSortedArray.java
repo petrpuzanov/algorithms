@@ -20,3 +20,4 @@ public class N26RemoveDuplicatesfromSortedArray {
         removeDuplicates(a);
     }
 }
+
