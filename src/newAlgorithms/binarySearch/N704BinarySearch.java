@@ -1,3 +1,5 @@
+package newAlgorithms.binarySearch;
+
 //https://leetcode.com/problems/binary-search/description/
 public class N704BinarySearch {
     public int search(int[] nums, int target) {
