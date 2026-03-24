@@ -1,4 +1,4 @@
-package newAlgorithms;
+package newAlgorithms.twoPointers;
 
 //https://leetcode.com/problems/valid-palindrome/description/
 public class N125ValidPalindrome {

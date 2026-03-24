@@ -1,4 +1,4 @@
-package newAlgorithms;
+package newAlgorithms.twoPointers;
 
 //https://leetcode.com/problems/reverse-string/description/
 public class N344ReverseString {

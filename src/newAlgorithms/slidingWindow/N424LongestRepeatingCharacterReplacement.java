@@ -1,3 +1,5 @@
+package newAlgorithms.slidingWindow;
+
 //https://leetcode.com/problems/longest-repeating-character-replacement/
 public class N424LongestRepeatingCharacterReplacement {
     public int characterReplacement(String s, int k) {
