@@ -5,40 +5,24 @@ import java.util.PriorityQueue;
 
 //https://leetcode.com/problems/merge-k-sorted-lists/description/
 public class N23MergeKSortedLists {
+    class ListNode {
+        int val;
+        ListNode next;
 
+        ListNode() {
+        }
 
-    public static void main(String[] args) {
-        ListNode  node1 = new ListNode();
-        node1.val = 1 ;
-        ListNode  node4 = new ListNode();
-        node4.val = 4;
-        ListNode  node10 = new ListNode();
-        node10.val = 10 ;
-        ListNode  node6 = new ListNode();
-        node6.val = 6 ;
-        ListNode  node12 = new ListNode();
-        node12.val = 12 ;
-        ListNode  node5 = new ListNode();
-        node5.val = 5 ;
-        ListNode  node7 = new ListNode();
-        node7.val = 7 ;
+        ListNode(int val) {
+            this.val = val;
+        }
 
-
-        node1.next = node4;
-        node4.next = node10;
-        node6.next = node12;
-        node5.next = node7;
-
-        List<ListNode> a = new ArrayList<>();
-        a.add(node1);
-        a.add(node6);
-        a.add(node5);
-
-        mergeKLists(a);
-
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
-    public static ListNode mergeKLists(List<ListNode> lists) {
+    public ListNode mergeKLists(List<ListNode> lists) {
         if (lists == null || lists.size() == 0) return null;
 
         PriorityQueue<ListNode> queue = new PriorityQueue<ListNode>(lists.size(), new Comparator<ListNode>() {
@@ -70,22 +54,3 @@ public class N23MergeKSortedLists {
         return dummy.next;
     }
 }
-
-//class ListNode {
-//    int val;
-//    ListNode next;
-//
-//    ListNode() {
-//    }
-//
-//    ListNode(int val) {
-//        this.val = val;
-//    }
-//
-//    ListNode(int val, ListNode next) {
-//        this.val = val;
-//        this.next = next;
-//    }
-//}
-
-
