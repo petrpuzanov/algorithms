@@ -1,9 +1,11 @@
+package newAlgorithms.hashTables;
+
 import java.util.HashMap;
 import java.util.Map;
 
 //https://leetcode.com/problems/roman-to-integer/
 public class N13RomanToInteger {
-    public static int romanToInt(String s) {
+    public int romanToInt(String s) {
         int res = 0;
         Map<Character, Integer> roman = new HashMap<>();
         roman.put('I', 1);
@@ -23,10 +25,6 @@ public class N13RomanToInteger {
         }
 
         return res + roman.get(s.charAt(s.length() - 1));
-    }
-
-    public static void main(String[] args) {
-        romanToInt("LLLLVVVII");
     }
 }
 

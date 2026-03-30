@@ -1,3 +1,5 @@
+package newAlgorithms.hashTables;
+
 import java.util.HashMap;
 import java.util.Map;
 
