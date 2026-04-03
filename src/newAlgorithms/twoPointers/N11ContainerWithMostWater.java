@@ -1,4 +1,4 @@
-package newAlgorithms;
+package newAlgorithms.twoPointers;
 
 //https://leetcode.com/problems/container-with-most-water/description/
 public class N11ContainerWithMostWater {

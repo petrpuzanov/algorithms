@@ -1,4 +1,4 @@
-package newAlgorithms;
+package newAlgorithms.twoPointers;
 
 public class N165CompareVersionNumbers {
     public int compareVersion(String version1, String version2) {
