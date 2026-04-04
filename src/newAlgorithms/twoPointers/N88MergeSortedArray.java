@@ -1,4 +1,4 @@
-package newAlgorithms;
+package newAlgorithms.twoPointers;
 
 public class N88MergeSortedArray {
 

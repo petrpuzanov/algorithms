@@ -13,13 +13,13 @@ public class N278FirstBadVersion {
                 if (true
 //                        isBadVersion(mid)
                 ) {
-                    right = mid; // mid может быть первой плохой
+                    right = mid;
                 } else {
-                    left = mid + 1; // точно справа
+                    left = mid + 1;
                 }
             }
 
-            return left; // или right — они равны
+            return left;
         }
     }
 }
