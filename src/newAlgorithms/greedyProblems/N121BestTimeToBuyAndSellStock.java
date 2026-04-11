@@ -1,3 +1,5 @@
+package newAlgorithms.greedyProblems;
+
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
 public class N121BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
