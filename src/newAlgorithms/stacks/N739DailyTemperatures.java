@@ -1,3 +1,5 @@
+package newAlgorithms.stacks;
+
 import java.util.Stack;
 
 //https://leetcode.com/problems/daily-temperatures/description/

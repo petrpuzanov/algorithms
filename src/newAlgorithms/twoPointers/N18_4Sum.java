@@ -1,4 +1,4 @@
-package newAlgorithms.hashTables;
+package newAlgorithms.twoPointers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
