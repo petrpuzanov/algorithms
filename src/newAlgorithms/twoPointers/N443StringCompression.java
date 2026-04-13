@@ -2,16 +2,16 @@ package newAlgorithms.twoPointers;
 
 public class N443StringCompression {
     public int compress(char[] chars) {
-        int n = chars.length;
+        int right = chars.length;
         int write = 0;
-        int i = 0;
+        int left = 0;
 
-        while (i < n) {
-            char current = chars[i];
+        while (left < right) {
+            char current = chars[left];
             int count = 0;
 
-            while (i < n && chars[i] == current) {
-                i++;
+            while (left < right && chars[left] == current) {
+                left++;
                 count++;
             }
 

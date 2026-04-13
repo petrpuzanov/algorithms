@@ -2,7 +2,7 @@ package newAlgorithms.twoPointers;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//todo
 public class N763PartitionLabels {
     public List<Integer> partitionLabels(String s) {
         int[] last = new int[26];
